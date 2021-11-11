@@ -7,8 +7,11 @@ Delimiter $$
 
 
 CREATE FUNCTION Immunizationtype(
+
 	DESCRIPTION varchar(20)
-    )
+
+	
+)
 RETURNS VARCHAR(20)
 BEGIN
 	DECLARE Immunizationtype VARCHAr(20);
